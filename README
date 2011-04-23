@@ -1,0 +1,29 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3559
+
+Vim上的英译汉插件，服务由Google提供，需要Python
+
+"    Usage: 使用时，可以在可视模式下高亮选择文本，或者在普通模式下将光标移
+"               到目标单词上，使用 /gt 快捷键或者输入 :Gtrans 来获得翻译，默认
+"               将内容翻译成为简体中文，可以修改 g:Gtrans_DefaultLang 改变默认
+"               目标语言，如：
+"                   let g:gtrans_DefaultLang = 'tw'
+"               当然，设置的语言必须是初始就有或者你已经设置过的。可以通过传入
+"               参数来设置翻译目标语言，如：
+"                   :Gtrans('en')
+"               不过目前只支持单词的翻译，因为输入命令的方法不能使用范围。不过
+"               可以修改 g:gtrans_DefaultLang 以达到类似的效果。
+"               初始可以翻译为三种语言：
+"                   en : 英语
+"                   zh : 简体中文
+"                   tw : 繁体中文
+"               可以通过设置 g:gtrans_LangDict 变量增加其他语言，如：
+"                   let g:gtrans_LangDict = {
+"                       目标语言的缩写（就是要传入的参数） : 
+"                       对应的语言名称缩写（需要通过GtransLangHelp 命令查找）
+"                   }
+
+Github: https://github.com/bolasblack/gtrans.vim
+
+I will update this plugin in GitHub, but not in vim.org.
+
+pic: http://i.min.us/ik3eaY.jpg
